@@ -3,10 +3,11 @@ from textblob import TextBlob
 import csv
 
 # Step 1 - Authenticate
-consumer_key='ldcdB1zPex9PvlJE3lZObn39s'
-consumer_secret='1zDYs2k0yLeC3fkaamFPU0D8AZeEmdTCi34k1rnZJTuOQkSiRO'
-access_token = '41557794-DZKSYfnj2u25auIF846oEkyfk26IOyGE67qBZlGLC'
-access_token_secret = 'aPwNkI5JxnbGOPEyF3Pnxe4AuQQmCsrq30xbuaVXp3yfx'
+consumer_key= 'CONSUMER_KEY_HERE'
+consumer_secret= 'CONSUMER_SECRET_HERE'
+
+access_token='ACCESS_TOKEN_HERE'
+access_token_secret='ACCESS_TOKEN_SECRET_HERE'
 
 #Step 2 - Establish connection with Twitter API
 auth = tweepy.OAuthHandler(consumer_key,consumer_secret)
