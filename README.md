@@ -7,6 +7,7 @@ This is the code for the Twitter Sentiment Analyzer. Instead of printing out eac
 
 tweepy (http://www.tweepy.org/)
 textblob (https://textblob.readthedocs.io/en/dev/)
+
 Install missing dependencies using pip
 
 ##Usage
